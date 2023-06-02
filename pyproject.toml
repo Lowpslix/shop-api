@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Lowsxplix <adir9gg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beanie = "^1.19.2"
+fastapi = "^0.95.2"
+dnspython = "^2.3.0"
+uvicorn = "^0.22.0"
+passlib = "^1.7.4"
+bcrypt = "^4.0.1"
+starlette = "^0.27.0"
+python-jose = "^3.3.0"
+python-dotenv = "^1.0.0"
+python-multipart = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
